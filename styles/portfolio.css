@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{ margin:0;
+padding:0}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+/* shared styles */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 10px;
+}
+.text-center{
+    text-align: center;
+}
+/*Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{ display: flex;
+        align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{ text-decoration: none;}
+.dark-2{color: #848484;}
+.btn-primary{
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+
+}
+.header{
+    background-image: url(../images/rsz_2developer.png), url(../images/rsz_41header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-left: 15px;
+    
+
+    
+
+}
+/* banner styles */
+.banner{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 30px 0 180px;
+}
+.banner-content{max-width: 580px;}
+.banner-greetings{
+    color: #848484;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.banner-title{
+    color: #181818;
+    font-size: 70px;
+    font-weight: bold;
+    margin:5px 0 10px 0;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.banner-profile-pic{
+    width:300px;
+    height:350px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+     margin: 0 auto;
+    padding: 130px 150px;
+    text-align: center;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    /* margin:0 190px 0 190px; */
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 600;
+    color:#181818;
+    margin-top: 5px;
+}
+/* skills sections style */
+.skills{margin-top: 15px;}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+.skill{
+    padding:30px;
+    box-shadow: 0px 6px 50px 0px #848484;
+    border-radius: 5px;
+    text-align: left;
+}
